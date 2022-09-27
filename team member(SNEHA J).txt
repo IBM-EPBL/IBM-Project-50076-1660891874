@@ -1,0 +1,29 @@
+
+                    ASSIGNMENT-2
+
+  REG NO:413019106014           NAME:SNEHA J
+
+
+   INPUT
+
+   T=int(input("Enter a temperature:")
+   if(T>0)and(T<=100):
+       print(T,"is a low temperature so alarm switched off.")
+   elif(T>=35):
+       print(T,"is a high temperature so alarm switched on.")
+   else:
+       print(T,"is a normal temperature")
+   H=int(input("Enter a humidity:"))
+   if(H>0)and(H<=100):
+       print(H,"is a low humidity so alarm switched off.")
+   elif(H>=35):
+       print(H,"is a high humidity so alarm switched on.")
+   else:
+       print(H,"is a normal humidity")
+
+   OUTPUT
+
+   Enter a temperature:100
+   100 is a low temperature so alarm switched off.
+   Enter a humidity:120
+   120 is a high humidity so alarm switched on.
